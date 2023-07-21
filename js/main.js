@@ -9,13 +9,13 @@ for (let i = 1; i <= 100; i++) {
   let number = i;
   if (i % 3 == 0 && i % 5 == 0) {
     number = "FizzBuzz";
-    numberView.classList.add("bg-warning");
+    numberView.style.backgroundColor = "#f0466f";
   } else if (i % 3 == 0) {
     number = "Fizz";
-    numberView.classList.add("bg-success");
+    numberView.style.backgroundColor = "#0cd6a1";
   } else if (i % 5 == 0) {
     number = "Buzz";
-    numberView.classList.add("bg-warning");
+    numberView.style.backgroundColor = "#ffd166";
   }
   console.log(number);
 
