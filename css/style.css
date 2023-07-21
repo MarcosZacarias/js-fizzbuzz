@@ -1,0 +1,12 @@
+.box {
+  width: calc(100% / 7);
+}
+
+.number-View {
+  aspect-ratio: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1389b2;
+  padding: 2rem;
+}
