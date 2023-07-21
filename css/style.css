@@ -1,3 +1,13 @@
+body {
+  background-color: #083b4c;
+}
+
+.title {
+  font-size: 5rem;
+  font-weight: bolder;
+  color: white;
+}
+
 .box {
   width: calc(100% / 7);
 }
@@ -9,4 +19,9 @@
   align-items: center;
   background-color: #1389b2;
   padding: 2rem;
+}
+
+.number-View:hover {
+  transform: scale(1.2);
+  cursor: pointer;
 }
